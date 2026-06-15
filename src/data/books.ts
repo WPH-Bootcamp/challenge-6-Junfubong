@@ -2,3 +2,8 @@
 // Array ini akan digunakan sebagai penyimpanan data sementara selama aplikasi berjalan
 // Pertimbangkan tipe data yang tepat untuk array ini berdasarkan definisi Book yang sudah dibuat
 
+import { Book } from '../types';
+
+// Array untuk menyimpan data buku
+export const books: Book[] = [];
+
